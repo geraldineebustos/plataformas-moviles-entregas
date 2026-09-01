@@ -1,8 +1,6 @@
 var listaNumerosEjemplo = [2,4,6,-1,5,-4,0];
 
 
-
- */
 function invertirLista(listaDeNumeros) {
     return [...listaDeNumeros].reverse();
 }
@@ -24,7 +22,6 @@ console.log("contarElementosLista([2,3,4]): ", contarElementosLista([2,3,4]))
 
 
 
- */
 function calcularPromedio(listaDeNumeros) {
     return sumarLista(listaDeNumeros) / contarElementosLista(listaDeNumeros);
 }
